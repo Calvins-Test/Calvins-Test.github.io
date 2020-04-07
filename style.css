@@ -1,0 +1,47 @@
+.left {
+  background-color: #EEE;
+  border-radius: 4px;
+  margin: 5px;
+  margin-right: -5px;
+}
+
+.center {
+  width:100%;
+  text-align:center;
+}
+
+img {
+  width: 500px;
+}
+
+img#headshot {
+  width:200px;
+  float:right;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+a.link {
+  text-decoration:underline;
+}
+
+a.link:visited {
+  color:green;
+}
+
+#footer {
+  background-color:#000;
+  color:#EEE;
+  border-radius:2px;
+}
+
+.fa {
+  border-radius:50%;
+  width:30px;
+  font-size:30px;
+  color:white;
+}
+
+.fa:hover {
+  text-decoration:none;
+}

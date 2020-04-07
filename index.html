@@ -1,10 +1,46 @@
-<head>
-	<title>My Webpage!</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-</head>
-<body>
-	<h1>Hello World!</h1>
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+	   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+		<title>My Webpage!</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	<body>
+		<div class="container-fluid">
+	    <div class="row">
+	      <div class="col-4 left">
+					<div class="center">
+          	<h3 class="title">About Me</h3>
+          	<img src="headshot.jpg" id="headshot"></img>
+        	</div>
+					<p>I'm an undergraduate student at Virginia Tech, on track to graduate in May 2022 with a Bachelor's Degree in Computer Science and Mathematics.</p>
+					<p>In my free time, I play the trumpet in the Virginia Tech Wind Ensemble and Trumpet Ensemble. You can view my resume <a href="resume.pdf" class="link">resume</a>.</p>
+				</div>
+	      <div class="col-8 right">
+					<div class="center">
+		        Slideshow:<br>
+
+						<img id="slideshow_img"></img>
+						<p id="slideshow_desc"></p>
+						<button id="prev">Previous</button><button id="next">Next</button>
+					</div>
+	      </div>
+	    </div>
+			<div class="col-12" id="footer">
+				<div class="center">
+					Social Media<br>
+					<a href="https://www.linkedin.com/in/calvin-godfrey-459a32190/" class="fa fa-linkedin"></a>
+					<a href="https://www.youtube.com/channel/UCr7DuOMKIW5kbj10OR7bv0w" class="fa fa-youtube"></a>
+					<a href="https://github.com/calvin-godfrey/" class="fa fa-github"></a>
+				</div>
+			</div>
+	  </div>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
